@@ -1,0 +1,23 @@
+{
+  "skill_name": "name-it",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我做了一个给 Codex 用的公开 Skill，核心是防止它把小项目做成中大型企业系统：要想得全面，但实现精炼；局部错误不能拖死整个程序。现在的暂定名叫 Prevent Unnecessary Enterprise-Grade Overengineering，太长了。帮我起一个别人一眼大概能看懂、又短又好记的英文名。",
+      "expected_output": "从真实作用中提炼出‘避免过度设计/构建’这一核心含义；先给一个短而准确的首选，再给少量不同方向的备选；指出可理解性与准确性的取舍，不靠生造缩写，也不堆几十个候选。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "给一个面向父母使用的家庭照片整理功能起中文名。它会按时间和地点把照片自动归到一起，但不会识别人脸。名字不要像技术功能，也不能让人误以为它能识别人。上下文已经够了，直接给我推荐。",
+      "expected_output": "无需重复追问；名称符合普通用户语言并避免虚构人脸识别能力；给出明确首选和少量真实不同的候选，简短说明每个名称传达的感觉与误解风险。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I am choosing between ClipFlow, CutPilot, and EditNest for a lightweight desktop tool that helps solo video editors organize footage and repeat editing routines. It does not edit videos automatically. Pick the best name, explain the tradeoffs, and give me the repo slug. Do not invent a new list unless all three are poor.",
+      "expected_output": "Evaluate the supplied names rather than ignoring them; avoid implying automatic editing; recommend one with concise reasoning, compare the key tradeoffs, provide a valid repository slug, and distinguish semantic judgment from any unperformed live availability or trademark check.",
+      "files": []
+    }
+  ]
+}

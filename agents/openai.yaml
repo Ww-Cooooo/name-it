@@ -1,0 +1,6 @@
+interface:
+  display_name: "Name It"
+  short_description: "Turn a complex idea into a short, clear, memorable name"
+  default_prompt: "Use $name-it to understand what I am naming, recommend the strongest concise name, and explain a few genuinely different alternatives without overwhelming me."
+policy:
+  allow_implicit_invocation: true
