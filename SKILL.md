@@ -21,9 +21,13 @@ Ask only for missing information that would materially change the naming directi
 
 ## Compress without amputating meaning
 
-A short name is useful only when it still carries the right idea. Reduce the concept to one central promise and, when helpful, one category signal. Prefer familiar words and combinations that can be understood without a private explanation.
+A short name is useful only when it still carries the right idea. Name the user's benefit or the action the product enables, not just its internal process or the document it produces. Prefer everyday words the intended audience already knows; a short professional term can still be harder to understand than a familiar word.
 
-Clarity usually beats cleverness. Distinctiveness still matters: avoid names so generic that they could describe almost anything. If the name cannot reasonably carry the full explanation, pair it with a short descriptor rather than making the name itself cumbersome.
+For concise English tool or Skill names, start with two common words when no different style is requested. A natural action-and-result combination is often useful. Use Title Case for the display name and `word-word` for a repository or Skill slug. This is a starting preference, not a universal limit: preserve explicit requests for another language, coined brand names, an existing shortlist, or another naming convention. Do not force an awkward combination merely to hit two words.
+
+Apply a first-glance check before writing the rationale: what would an unfamiliar target user expect this name to help them do? If that expectation is vague or wrong, revise the candidate instead of defending it with a long explanation. Merely deleting a word from a rejected name does not solve unclear meaning. For example, when a tool helps developers explain why their product is useful, an outcome-led direction such as `show-value` can communicate the benefit more directly than a deliverable label such as `product-brief`; this illustrates the tradeoff, not a required answer for other products.
+
+Clarity usually beats cleverness. Distinctiveness still matters: avoid names so generic that they could describe almost anything. A short descriptor may clarify the domain or scope, but should not rescue an otherwise meaningless name. Never imply benefits the product cannot support.
 
 Do not manufacture an abbreviation merely to make a long phrase appear short. Use an acronym only when people can readily say, remember, and connect it to the product.
 
@@ -73,6 +77,8 @@ If the user asks for one answer, give one answer. If they only want evaluation o
 
 Treat feedback such as “too long,” “too vague,” “sounds corporate,” or “people cannot tell what it does” as new evidence. Preserve every accepted constraint, identify the rejected pattern, and produce a tighter next round. Do not restart from scratch, repeat discarded styles, or defend a name the user clearly does not want.
 
+Distinguish word-count feedback from vocabulary and meaning feedback. A two-word name can still fail if it uses unfamiliar jargon or hides the benefit. Carry all accepted constraints into the next round rather than satisfying only the latest one.
+
 When a final direction is chosen, provide only the useful finishing details:
 
 - final display name;
@@ -80,5 +86,7 @@ When a final direction is chosen, provide only the useful finishing details:
 - repository or package slug when relevant;
 - one-line descriptor when the name benefits from it;
 - any collision or language check still pending.
+
+During exploration, present candidates without renaming project files after every suggestion. Once the name is accepted and implementation is requested, update the relevant local name and references within the authorized scope. Choosing a name does not authorize installation, publication, or replacing other copies.
 
 Finish the naming decision; do not turn it into a branding program unless the user asks for one.

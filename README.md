@@ -11,6 +11,7 @@ It helps when a name is too long, too vague, difficult to remember, misleading, 
 ## What it does
 
 - Finds the central idea the name should communicate.
+- Favors familiar words that reveal the benefit; concise English tool names usually start with two words, unless your brief calls for another style.
 - Balances clarity, brevity, accuracy, memorability, and distinctiveness.
 - Gives one recommendation before a small set of meaningful alternatives.
 - Evaluates names you already have without needlessly replacing them.
@@ -85,7 +86,7 @@ After installation, open a new Codex task and ask it to confirm that `name-it` a
 - A web search can find obvious collisions, but it is not legal trademark clearance.
 - It does not promise domain, package, account, or repository availability without checking the relevant service.
 - It does not replace a full brand strategy, identity system, or legal review unless the user separately requests that work.
-- This repository contains instructions, display metadata, and three prompt-based evaluation fixtures. It contains no executable scripts or dependencies.
+- This repository contains instructions, display metadata, and prompt-based evaluation fixtures. It contains no executable scripts or dependencies.
 
 ## Repository contents
 
@@ -93,7 +94,7 @@ After installation, open a new Codex task and ask it to confirm that `name-it` a
 | --- | --- |
 | `SKILL.md` | Canonical Skill instructions loaded after discovery |
 | `agents/openai.yaml` | Display metadata and default invocation prompt |
-| `evals/evals.json` | Three representative naming prompts and expected behavior |
+| `evals/evals.json` | Representative naming prompts and expected behavior |
 | `README.md` | English project entrypoint |
 | `README.zh-CN.md` | Simplified Chinese project entrypoint |
 
